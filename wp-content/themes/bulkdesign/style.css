@@ -1,0 +1,439 @@
+body{
+    font-family: 'Alegreya Sans SC';
+}
+
+h3{
+  font-size: 30px;
+}
+
+.content-area .container{
+  width: 85%!important;
+}
+
+aside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: white;
+  transition: all .5s ease;
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #3d0a3c;
+}
+
+.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav.mobile-menu {
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: none;
+  background: none;
+}
+
+.mobile-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-menu li {
+  align-items: center;
+  flex: 1;
+  line-height: 15vh;
+  float: none;
+}
+
+.mobile-menu a {
+  font-size: 1.5em;
+  transition: all 0.5s ease;
+  display: block;
+  text-decoration: none;
+}
+
+.margin-clear {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.outer-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+}
+
+.brand-logo img{
+  width: 100px;
+  padding-top: 15px;
+}
+
+.navegacao{
+  background-color: transparent;
+}
+
+.navegacao .container{
+  width: 90%;
+}
+
+
+
+
+
+
+
+/*SLIDESHOW HOME*/
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(images/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(images/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
+
+#slides {
+  display: none
+}
+
+#home{
+  margin-top: -80px;
+}
+
+.conteudohome{
+  width: 100%;
+  position: absolute;
+  z-index: 99; 
+  color: white;
+  text-align: center;
+  vertical-align: 50%;
+  top: 12%;
+}
+
+#home .btn{
+  margin: 0px;
+}
+
+hr{
+  height: 2px;
+  border: none;
+  background-color: #3d0a3c;
+  width: 200px;
+  margin-top: -60px;
+  margin-bottom: 80px;
+}
+
+#quemsomos{
+  text-align: center;
+}
+
+#quemsomos p{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#quemsomos h1, #principios h1, #servicos h1, #equipe h1, #contato h1{
+  text-align: center;
+  color: #3e0a3d;
+  font-size: 40px;
+  padding: 50px 0;
+}
+
+#quemsomos h3{
+  font-weight: 300;
+  color: #3e0a3d;
+  text-align: justify;
+  padding-bottom: 80px;
+}
+
+.parallax-container{
+  background-color: rgba(61, 10, 60, 0.75);
+}
+
+.parallax-container h3{
+  color: white!important;
+  font-weight: 300!important;
+  margin-top: 200px;
+}
+
+
+#servicos{
+  text-align: center;
+}
+
+.servicos h3{
+  color: #3e0a3d;
+  padding-bottom: 130px;
+  font-weight: 300;
+}
+
+.servicoslide{
+    height: 100vh;
+}
+
+.caption{
+  background-color: #3e0a3d;
+  margin-top: 30px;
+  padding: 1px 25px;
+  width: 250px;
+  color: white;
+}
+.slides{
+  height: 200px!important;
+  background-color: #3e0a3d!important;
+}
+
+.slider{
+  height: 230px!important;
+  background-color: #3e0a3d!important;
+}
+
+.slides h5{
+  padding-top: 60px;
+}
+
+.slider .indicators .indicator-item.active{
+  background-color: purple!important;
+}
+
+#contato{
+  text-align: center;
+  margin-top: 30px;
+  color: #3e0a3d;
+}
+
+.btn{
+  background-color: #3e0a3d;
+  text-align: center;
+  margin: 30px;
+  border: none;
+}
+
+#contato .btn{
+  margin-bottom: 0px;
+}
+.postagemtexto img{
+  width: auto!important;
+}
+
+#contato{
+  margin-bottom: -50px;
+}
+
+.btn:hover, .btn:focus{
+  background-color: #3e0a3d;
+}
+
+#footer{
+  background-color: #3d0a3c;
+  text-align: center;
+  height: 50px;
+  padding: 1px;
+  color: white;
+  margin-top: 100px;
+}
+
+input[type="text"], textarea{
+  width: 50%!important;
+}
+
+input[type="text"]:focus{
+  border-bottom: 1px solid #3e0a3d!important;
+}
+
+textarea{
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+textarea:focus{
+  border-bottom: 2px solid #3e0a3d;
+}
+
+
+/*PÁGINA BLOG*/
+.imagem-topo{
+  margin-top: -64px!important;
+  text-align: center;
+}
+
+.logo{
+  width: 150px;
+  margin-top: 200px;
+}
+
+.blog{
+  text-align: center;
+}
+
+.blog hr{
+  margin-top: 0px;
+}
+
+blockquote {
+  border-left: 5px solid purple;
+}
+
+.postagemtexto img{
+  width: 100%!important;
+  height: auto;
+}
+
+@media(max-width: 600px){
+  #quemsomos h1{
+    font-size: 30px;
+  }
+
+  #quemsomos h3{
+    font-size: 30px;
+  }
+
+  .parallax-container h3{
+    margin-top: 150px;
+    font-size: 25px!important;
+  }
+
+  .conteudohome{
+    top: 5%;
+  }
+
+  .conteudohome h1{
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .imagem-topo{
+    height: 400px;
+  }
+
+}
+
+@media(max-width: 992px){
+  input[type="text"], textarea{
+    width: 100%!important;
+  }
+}
+
+
+/*SLIDESHOW*/
+/* For tablets & smart phones */
+/* For smartphones */
+@media (max-width: 480px) {
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+
+}
+
